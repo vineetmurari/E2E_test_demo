@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests"  verbose="4" thread-count="10">
+<suite name="Suite" parallel="false"  verbose="4" thread-count="10">
   <parameter name="Sender" value=""></parameter>
   <parameter name="receiver" value=""></parameter>
   <parameter name="password" value=""></parameter>
-  
-  
+
    <test name="Test_chrome">
 	<parameter name="Browser" value="chrome"></parameter>
     <classes>
@@ -13,11 +12,4 @@
     </classes>
   </test>
   
-     <test name="Test_IE">
-	<parameter name="Browser" value="IE"></parameter>
-    <classes>
-      <class name="com.automate.withme.Runner.E2e_Runner"/>
-    </classes>
-  </test>
-
 </suite> 
