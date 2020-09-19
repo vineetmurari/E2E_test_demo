@@ -11,6 +11,12 @@ import io.cucumber.java.Scenario;
 
 public class Login {
 
+	/**
+	 * This file is used to have methods and objects of
+	 * Login page of Online Fruits and Veggies Demo App
+	 * developed by AutomateWithMe
+	 */
+	
 	WebDriver driver;
 	
 	@FindBy(xpath="//h2[text()='Fruits and Veggies']")
