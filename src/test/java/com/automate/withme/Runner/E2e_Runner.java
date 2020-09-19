@@ -17,6 +17,6 @@ import io.cucumber.testng.CucumberOptions;
 				"json:target/cucumber-html-reports/cucumber.json"},
 		tags={"@E2e"}
 		)
-public class E2e_Runner extends testngUtils {
+public class E2e_Runner extends testngUtils { //this is e2e runner
 	
 }
