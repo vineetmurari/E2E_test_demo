@@ -1,10 +1,7 @@
 package com.automate.withme.Runner;
 
-import org.openqa.selenium.WebDriver;
-
 import com.automate.withme.testNgUtils.testngUtils;
 
-import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
