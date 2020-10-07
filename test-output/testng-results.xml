@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="61928" started-at="2020-09-19T13:07:11Z" finished-at="2020-09-19T13:08:13Z">
+  <suite name="Suite" duration-ms="19773" started-at="2020-10-07T11:07:08Z" finished-at="2020-10-07T11:07:28Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test_chrome" duration-ms="44163" started-at="2020-09-19T13:07:11Z" finished-at="2020-09-19T13:07:56Z">
+    <test name="Test_chrome" duration-ms="19773" started-at="2020-10-07T11:07:08Z" finished-at="2020-10-07T11:07:28Z">
       <class name="com.automate.withme.Runner.E2e_Runner">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="beforeTest" is-config="true" duration-ms="13900" started-at="2020-09-19T18:37:11Z" finished-at="2020-09-19T18:37:25Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="beforeTest" is-config="true" duration-ms="5778" started-at="2020-10-07T16:37:09Z" finished-at="2020-10-07T16:37:14Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +21,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="setUpClass" is-config="true" duration-ms="5237" started-at="2020-09-19T18:37:25Z" finished-at="2020-09-19T18:37:31Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="setUpClass" is-config="true" duration-ms="849" started-at="2020-10-07T16:37:14Z" finished-at="2020-10-07T16:37:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="runScenario" duration-ms="6649" started-at="2020-09-19T18:37:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T18:37:37Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="runScenario" duration-ms="4361" started-at="2020-10-07T16:37:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-07T16:37:19Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="runScenario" duration-ms="3892" started-at="2020-09-19T18:37:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T18:37:41Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="runScenario" duration-ms="1788" started-at="2020-10-07T16:37:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-07T16:37:21Z">
           <params>
             <param index="0">
               <value>
@@ -58,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="runScenario" duration-ms="10951" started-at="2020-09-19T18:37:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T18:37:52Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="runScenario" duration-ms="2848" started-at="2020-10-07T16:37:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-07T16:37:24Z">
           <params>
             <param index="0">
               <value>
@@ -74,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="runScenario" duration-ms="670" started-at="2020-09-19T18:37:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T18:37:53Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="runScenario" duration-ms="634" started-at="2020-10-07T16:37:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-07T16:37:25Z">
           <params>
             <param index="0">
               <value>
@@ -90,106 +89,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="tearDownClass" is-config="true" duration-ms="1992" started-at="2020-09-19T18:37:53Z" finished-at="2020-09-19T18:37:55Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="tearDownClass" is-config="true" duration-ms="939" started-at="2020-10-07T16:37:25Z" finished-at="2020-10-07T16:37:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="afterTest" is-config="true" duration-ms="853" started-at="2020-09-19T18:37:55Z" finished-at="2020-09-19T18:37:56Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="afterTest" is-config="true" duration-ms="2555" started-at="2020-10-07T16:37:26Z" finished-at="2020-10-07T16:37:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.automate.withme.Runner.E2e_Runner -->
-    </test> <!-- Test_chrome -->
-    <test name="Test_IE" duration-ms="61928" started-at="2020-09-19T13:07:11Z" finished-at="2020-09-19T13:08:13Z">
-      <class name="com.automate.withme.Runner.E2e_Runner">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="beforeTest" is-config="true" duration-ms="13898" started-at="2020-09-19T18:37:11Z" finished-at="2020-09-19T18:37:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="setUpClass" is-config="true" duration-ms="5237" started-at="2020-09-19T18:37:25Z" finished-at="2020-09-19T18:37:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="runScenario" duration-ms="17090" started-at="2020-09-19T18:37:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T18:37:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login to Online Fruits and Veggies"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Online Fruits and Veggies"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="runScenario" duration-ms="15418" started-at="2020-09-19T18:37:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T18:38:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Add items into Cart"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Online Fruits and Veggies"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="runScenario" duration-ms="6309" started-at="2020-09-19T18:38:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T18:38:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User checkout"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Online Fruits and Veggies"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="runScenario" duration-ms="2964" started-at="2020-09-19T18:38:09Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T18:38:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Order placed"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Online Fruits and Veggies"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="tearDownClass" is-config="true" duration-ms="134" started-at="2020-09-19T18:38:12Z" finished-at="2020-09-19T18:38:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="afterTest" is-config="true" duration-ms="858" started-at="2020-09-19T18:38:12Z" finished-at="2020-09-19T18:38:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="aftersuite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@6fb554cc]" name="aftersuite" is-config="true" duration-ms="2" started-at="2020-09-19T18:38:13Z" finished-at="2020-09-19T18:38:13Z">
+        <test-method status="PASS" signature="aftersuite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automate.withme.Runner.E2e_Runner@3fb6a447]" name="aftersuite" is-config="true" duration-ms="1" started-at="2020-10-07T16:37:28Z" finished-at="2020-10-07T16:37:28Z">
           <params>
             <param index="0">
               <value>
@@ -211,6 +119,6 @@
           </reporter-output>
         </test-method> <!-- aftersuite -->
       </class> <!-- com.automate.withme.Runner.E2e_Runner -->
-    </test> <!-- Test_IE -->
+    </test> <!-- Test_chrome -->
   </suite> <!-- Suite -->
 </testng-results>
